@@ -10,6 +10,15 @@ import mensEye from './menspecs.png'
 import kidsSPecs from './kidspecs.jpeg'
 import checkSpecs from './checkspecs.png'
 import checkingLady from './checkinglady.png'
+import surgeryPic from './surgerypic.png'
+import grandDr from './granddoctor.jpeg'
+import ladyDr from './ladydoctor.jpeg'
+import firstdr from './firtsmaledr.jpeg'
+import secondDr from './secondmaledr.jpeg'
+import thirdDr from './thirdmaledr.jpeg'
+import fourthDr from './fourthmaledr.jpeg'
+
+
 
 
 export const assets = {
@@ -24,7 +33,8 @@ export const assets = {
   mensEye,
   kidsSPecs,
   checkSpecs,
-  checkingLady
+  checkingLady,
+  surgeryPic
 }
 
 
@@ -90,6 +100,7 @@ export const dummyTestimonialData = [
   {
     image: "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=200",
     name: 'John Doe',
+    heading:"great work",
     title: 'Marketing Director, TechCorp',
     content: 'ContentAI has revolutionized our content workflow. The quality of the articles is outstanding, and it saves us hours of work every week.',
     rating: 4,
@@ -97,6 +108,7 @@ export const dummyTestimonialData = [
   {
     image: "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?q=80&w=200",
     name: 'Jane Smith',
+    heading:"great work",
     title: 'Content Creator, TechCorp',
     content: 'ContentAI has made our content creation process effortless. The AI tools have helped us produce high-quality content faster than ever before.',
     rating: 5,
@@ -104,8 +116,43 @@ export const dummyTestimonialData = [
   {
     image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=200&h=200&auto=format&fit=crop",
     name: 'David Lee',
+    heading:"great work",
     title: 'Content Writer, TechCorp',
     content: 'ContentAI has transformed our content creation process. The AI tools have helped us produce high-quality content faster than ever before.',
     rating: 4,
   },
 ];
+
+
+export const specialDoctors = [
+  {
+    images:grandDr,
+    name:"dr.laurence oilivier",
+    department:"lens replacement"
+  },
+  {
+    images:ladyDr,
+    name:"dr.laurence oilivier",
+    department:"lens replacement"
+  },
+  {
+    images:firstdr,
+    name:"dr.laurence oilivier",
+    department:"lens replacement"
+  },
+  {
+    images:secondDr,
+    name:"dr.laurence oilivier",
+    department:"lens replacement"
+  },
+  {
+    images:thirdDr,
+    name:"dr.laurence oilivier",
+    department:"lens replacement"
+  },
+  {
+    images:fourthDr,
+    name:"dr.laurence oilivier",
+    department:"lens replacement"
+  },
+]

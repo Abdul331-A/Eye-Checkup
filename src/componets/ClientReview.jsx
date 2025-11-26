@@ -1,5 +1,5 @@
-import React from 'react'
-import Testimonial from './Testimonial'
+import Testimonial from "./Testimonial";
+
 
 const ClientReview = () => {
   return (
@@ -9,4 +9,4 @@ const ClientReview = () => {
   )
 }
 
-export default ClientReview
+export default ClientReview;

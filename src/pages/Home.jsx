@@ -7,6 +7,7 @@ import MensGlasses from '../componets/MensGlasses'
 import KidsEye from '../componets/KidsEye'
 import FacilitySection from '../componets/FacilitySection'
 import ClientReview from '../componets/ClientReview'
+import EmergencyContact from '../componets/EmergencyContact'
 
 const Home = () => {
   return (
@@ -19,6 +20,7 @@ const Home = () => {
       <KidsEye/>
       <FacilitySection/>
       <ClientReview/>
+      <EmergencyContact/>
     </div>
   )
 }
