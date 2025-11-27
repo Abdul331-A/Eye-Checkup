@@ -17,8 +17,10 @@ import firstdr from './firtsmaledr.jpeg'
 import secondDr from './secondmaledr.jpeg'
 import thirdDr from './thirdmaledr.jpeg'
 import fourthDr from './fourthmaledr.jpeg'
-
-
+import ambulance from './ambu.png'
+import optometry from './Optometry.jpeg'
+// import Opthalmic from './ophthalmic.jpeg'
+import testingDr from './testingdr.jpeg'
 
 
 export const assets = {
@@ -34,7 +36,11 @@ export const assets = {
   kidsSPecs,
   checkSpecs,
   checkingLady,
-  surgeryPic
+  surgeryPic,
+  ambulance,
+  optometry,
+  // Opthalmic,
+  testingDr
 }
 
 

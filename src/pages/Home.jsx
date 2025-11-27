@@ -8,6 +8,9 @@ import KidsEye from '../componets/KidsEye'
 import FacilitySection from '../componets/FacilitySection'
 import ClientReview from '../componets/ClientReview'
 import EmergencyContact from '../componets/EmergencyContact'
+import Ambulance from '../componets/Ambulance'
+import FacillityList from '../componets/FacillityList'
+import HomeBottom from '../componets/HomeBottom'
 
 const Home = () => {
   return (
@@ -21,6 +24,9 @@ const Home = () => {
       <FacilitySection/>
       <ClientReview/>
       <EmergencyContact/>
+      <Ambulance/>
+      <FacillityList/>
+      <HomeBottom/>
     </div>
   )
 }
