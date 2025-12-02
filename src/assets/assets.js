@@ -21,7 +21,10 @@ import ambulance from './ambu.png'
 import optometry from './Optometry.jpeg'
 // import Opthalmic from './ophthalmic.jpeg'
 import testingDr from './testingdr.jpeg'
-
+import womanDoctorWhite from './womandoctorwhite.jpg'
+import horizontalMan from './horizontalmen.png'
+import { FaRegEye } from 'react-icons/fa'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 export const assets = {
   eyeIcon,
@@ -40,7 +43,9 @@ export const assets = {
   ambulance,
   optometry,
   // Opthalmic,
-  testingDr
+  testingDr,
+  womanDoctorWhite,
+  horizontalMan
 }
 
 
@@ -162,3 +167,12 @@ export const specialDoctors = [
     department:"lens replacement"
   },
 ]
+
+export const servicesList = [
+  { id: 1, title: 'Surgical Procedures', description: 'Description for surgical procedures.', imageSrc: '/images/icon-surgical.png',icon:<FontAwesomeIcon icon={byPrefixAndName.fab['facebook-f']} /> },
+  { id: 2, title: 'Vision Correction', description: 'Description for vision correction.', imageSrc: '/images/icon-vision.png' },
+  { id: 3, title: 'Lenses & Transitions', description: 'Description for lenses & transitions.', imageSrc: '/images/icon-lenses.png' },
+  { id: 4, title: 'Laser Eye Surgery', description: 'Description for laser eye surgery.', imageSrc: '/images/icon-laser.png' },
+  { id: 5, title: 'Glaucoma & Cornea', description: 'Description for glaucoma & cornea.', imageSrc: '/images/icon-glaucoma.png' },
+  { id: 6, title: 'Dry Eye Surgery', description: 'Description for dry eye surgery.', imageSrc: '/images/icon-dryeye.png' },
+];

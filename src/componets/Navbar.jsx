@@ -10,6 +10,8 @@ import {
   ShoppingOutlined,
   UserOutlined
 } from '@ant-design/icons';
+import { NavLink } from 'react-router-dom';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -39,6 +41,7 @@ const Navbar = () => {
           <p>Sun-Thu 08:00AM - 05:00PM</p>
           <div className="flex items-center gap-3 text-lg">
             <GrFacebookOption />
+            {/* <FontAwesomeIcon icon={byPrefixAndName.fab['facebook-f']} /> */}
             <FaLinkedinIn />
             <FaInstagram />
             <FaTwitter />
@@ -53,7 +56,9 @@ const Navbar = () => {
         
         {/* Logo */}
         <div className="flex items-center bg-primary px-5 h-[70px] shrink-0">
-          <img src={assets.eyeIcon} alt="" className="h-7" />
+          <NavLink to='/' >
+          <img src={assets.eyeIcon} alt="" className="h-7 cursor-pointer" />
+          </NavLink>
           <h3 className="ml-2 tracking-[2px] uppercase font-semibold text-white text-lg">Eye Checkup</h3>
         </div>
 
@@ -62,12 +67,11 @@ const Navbar = () => {
 
           {/* Links */}
           <ul className="hidden lg:flex items-center gap-8 text-gray-800">
-            <li>Home</li>
-            <li>Pages</li>
-            <li>Services</li>
-            <li>Shop</li>
-            <li>Blog</li>
-            <li>Contact</li>
+            <NavLink to='/' className='cursor-pointer'>Home</NavLink>
+            <NavLink to='/pages' className='cursor-pointer'>Pages</NavLink>
+            <NavLink to='/services' className='cursor-pointer'>Services</NavLink>
+            <NavLink to='/shop' className='cursor-pointer'>Shop</NavLink>
+            <NavLink to='/contact' className='cursor-pointer'>Contact</NavLink>
           </ul>
 
           {/* Right Icons */}
