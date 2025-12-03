@@ -1,16 +1,20 @@
 import React from 'react'
-import { servicesList } from '../../assets/assets'
+// import { servicesList } from '../../assets/assets'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { FaEye } from 'react-icons/fa';
 
-const ServiceCard = ({ imageSrc, title, description }) => {
+
+
+const ServiceCard = ({ imageSrc, title, description, icon }) => {
     return (
         <div className="max-w-sm rounded-lg shadow-lg overflow-hidden transform transition duration-500 hover:scale-105 bg-white capitalize">
             {/* Image Container with specific aspect ratio for the icon appearance */}
             <div className="relative h-40 flex items-center justify-center p-6 border-b-primary border-b-4">
                 <img className="max-h-full max-w-full object-contain" src={imageSrc} alt={title} />
-               <div className='w-10 h-12 bg-primary absolute bottom-0 left-10 rounded-t-full'>
-                   {/* <span><i className="fa-solid fa-eye"></i></span> */}
-               </div>
+                <div className='w-10 h-12 bg-primary absolute bottom-0 left-10 rounded-t-full flex items-center justify-center'>
+                    <span className=''>{icon}</span>
+                </div>
+
             </div>
 
             {/* Card Content */}

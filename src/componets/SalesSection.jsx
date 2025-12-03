@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { assets, womenProducts } from '../assets/assets';
 import ProducCard from './ProducCard';
 
+
 const SalesSection = () => {
 
     const [active, setActive] = useState("sunglasses");

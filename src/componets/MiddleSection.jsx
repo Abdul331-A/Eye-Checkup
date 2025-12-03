@@ -4,6 +4,7 @@ import { FaUserDoctor } from 'react-icons/fa6'
 import { TbArrowBearRight, TbArrowBigRight, TbBat } from 'react-icons/tb'
 import { assets } from '../assets/assets'
 
+
 const MiddleSection = () => {
     return (
         <div className='capitalize m-30'>
