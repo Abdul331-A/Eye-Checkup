@@ -1,0 +1,42 @@
+/* Pagination container */
+.custom-pagination .ant-pagination-item {
+  border-radius: 100% !important;
+  /* background-color: #f2f2f2 !important; */
+  border: none !important;
+   margin: 0 6px !important;
+}
+
+/* Pagination number text */
+.custom-pagination .ant-pagination-item a {
+  color: #444 !important;
+  font-weight: 500;
+}
+
+/* Hover Style */
+.custom-pagination .ant-pagination-item:hover {
+  background-color: #f6f6f6 !important; /* light orange */
+}
+
+/* Active Page */
+.custom-pagination .ant-pagination-item-active {
+  background-color: #1f7b6f !important; /* your primary */
+}
+
+.custom-pagination .ant-pagination-item-active a {
+  color: white !important;
+}
+
+/* Next / Prev buttons */
+.custom-pagination .ant-pagination-prev button,
+.custom-pagination .ant-pagination-next button {
+  /* background-color: #f2f2f2 !important; */
+  border-radius: 100% !important;
+  border: none !important;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15) !important;
+  margin: 0 6px !important;
+}
+
+/* .custom-pagination .ant-pagination-prev button:hover,
+.custom-pagination .ant-pagination-next button:hover {
+  background-color: #ffd699 !important;
+} */

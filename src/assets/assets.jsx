@@ -24,7 +24,7 @@ import testingDr from './testingdr.jpeg'
 import womanDoctorWhite from './womandoctorwhite.jpg'
 import horizontalMan from './horizontalmen.png'
 import { FaEye, FaRegEye } from 'react-icons/fa'
-
+import printSpecs from './printspecs.png'
 
 export const assets = {
   eyeIcon,
@@ -168,3 +168,87 @@ export const specialDoctors = [
   },
 ]
 
+export const specsData = [
+  { 
+    id: 1, 
+    name: "Eco tyne cry", 
+    actualPrice: 2499, 
+    discription:"budapest white 51 18145",
+    offerPrice: 1999, 
+    saleTag: "SALE",
+    image: printSpecs 
+  },
+  { 
+    id: 2, 
+    name: "Eco tyne cry", 
+    actualPrice: 3499, 
+    discription:"budapest white 51 18145",
+    offerPrice: 2999, 
+    saleTag: "HOT",
+    image: printSpecs
+  },
+  { 
+    id: 3, 
+    name: "Eco tyne cry", 
+    actualPrice: 1999, 
+    offerPrice: 1499, 
+    discription:"budapest white 51 18145",
+    saleTag: "",
+    image: printSpecs 
+  },
+  { 
+    id: 4, 
+    name: "Eco tyne cry", 
+    actualPrice: 2999, 
+    discription:"budapest white 51 18145",
+    offerPrice: 2499,
+    saleTag: "SALE",
+    image: printSpecs 
+  },
+  { 
+    id: 5, 
+    name: "Eco tyne cry", 
+    actualPrice: 2299, 
+    discription:"budapest white 51 18145",
+    offerPrice: 1899,
+    saleTag: "NEW",
+    image: printSpecs 
+  },
+  { 
+    id: 6, 
+    name: "Eco tyne cry", 
+    actualPrice: 1299, 
+    offerPrice: 999,
+    discription:"budapest white 51 18145",
+    saleTag: "",
+    image: printSpecs 
+  },
+  { 
+    id: 7, 
+    name: "Eco tyne cry", 
+    actualPrice: 5499, 
+    offerPrice: 4999,
+    saleTag: "HOT",
+    discription:"budapest white 51 18145",
+    image: printSpecs 
+    
+  },
+  { 
+    id: 8, 
+    name: "Eco tyne cry", 
+    actualPrice: 4299, 
+    offerPrice: 3799,
+    discription:"budapest white 51 18145",
+    saleTag: "SALE",
+    image: printSpecs
+  },
+  { 
+    id: 9, 
+    name: "Eco tyne cry", 
+    actualPrice: 4299, 
+    offerPrice: 3799,
+    discription:"budapest white 51 18145",
+    saleTag: "SALE",
+    image: printSpecs 
+  },
+];
