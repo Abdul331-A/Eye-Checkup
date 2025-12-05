@@ -6,6 +6,7 @@ import Home from './pages/Home'
 import Service from './pages/Service'
 import Shop from './pages/Shop'
 import Contact from './pages/Contact'
+import Appoinment from './pages/Appoinment'
 
 
 
@@ -20,6 +21,7 @@ function App() {
         <Route path='/services' element={<Service />} />
         <Route path='/shop' element={<Shop />} />
         <Route path='/contact' element={<Contact />} />
+        <Route path='/appoinment' element={<Appoinment />} />
       </Routes>
       <Footer />
     </>

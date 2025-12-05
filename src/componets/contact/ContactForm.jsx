@@ -1,11 +1,11 @@
 import React from 'react'
 
-const ContactForm = () => {
+const ContactForm = ({head}) => {
   return (
     <div className="max-w-4xl mx-auto p-6 md:p-10">
       {/* Title */}
       <h2 className="text-2xl md:text-3xl font-bold text-primary mb-6">
-        Let’s Start
+       {head}
       </h2>
 
       {/* Form */}

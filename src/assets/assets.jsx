@@ -25,6 +25,8 @@ import womanDoctorWhite from './womandoctorwhite.jpg'
 import horizontalMan from './horizontalmen.png'
 import { FaEye, FaRegEye } from 'react-icons/fa'
 import printSpecs from './printspecs.png'
+import lensCheck from './lensCheck.jpg'
+import medicalDevice from './medicaldevice.png'
 
 export const assets = {
   eyeIcon,
@@ -45,7 +47,9 @@ export const assets = {
   // Opthalmic,
   testingDr,
   womanDoctorWhite,
-  horizontalMan
+  horizontalMan,
+  lensCheck,
+  medicalDevice
 }
 
 
@@ -252,3 +256,34 @@ export const specsData = [
     image: printSpecs 
   },
 ];
+
+    export const offices = [
+    {
+      city: "London Shop",
+      address1: "PO Box 16122 Collins Street West",
+      address2: "Victoria 8007 Australia",
+      phone: "+1 987 654 3210",
+      email: "info@domain.com",
+    },
+    {
+      city: "New York Shop",
+      address1: "PO Box 16122 Collins Street West",
+      address2: "Victoria 8007 Australia",
+      phone: "+1 987 654 3210",
+      email: "info@domain.com",
+    },
+    {
+      city: "Istanbul Shop",
+      address1: "PO Box 16122 Collins Street West",
+      address2: "Victoria 8007 Australia",
+      phone: "+1 987 654 3210",
+      email: "info@domain.com",
+    },
+    {
+      city: "Paris Shop",
+      address1: "PO Box 16122 Collins Street West",
+      address2: "Victoria 8007 Australia",
+      phone: "+1 987 654 3210",
+      email: "info@domain.com",
+    },
+  ];

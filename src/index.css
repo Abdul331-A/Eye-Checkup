@@ -15,5 +15,21 @@
     --color-primary-dull:#44ae7c;
 }
 
+.custom-date .ant-picker-input > input {
+  background-color: #e9f2f1 !important; /* input bg */
+  color: #0b8a7d !important;            /* text color */
+}
 
+.custom-date {
+  background-color: #e9f2f1 !important; /* outer wrapper */
+  border-radius: 4px !important;
+  border: none !important;
+  height: 42px; /* optional */
+}
 
+/* .custom-date:hover,
+.custom-date:focus,
+.custom-date.ant-picker-focused {
+  border: 1px solid #0b8a7d !important;
+  box-shadow: 0 0 0 2px rgba(0, 150, 136, 0.2) !important;
+} */

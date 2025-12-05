@@ -10,11 +10,13 @@ import {
   ShoppingOutlined,
   UserOutlined
 } from '@ant-design/icons';
-import { NavLink } from 'react-router-dom';
+import { NavLink, useNavigate } from 'react-router-dom';
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const navigate = useNavigate();
+
 
   return (
     <header className="w-full text-sm text-white">
@@ -82,7 +84,7 @@ const Navbar = () => {
           </div>
 
           {/* CTA Button (Desktop Only) */}
-          <button className="hidden lg:block bg-primary text-white rounded-full px-6 py-2 hover:bg-primary-dull transition">
+          <button onClick={()=>navigate("/appoinment")} className="hidden lg:block bg-primary text-white rounded-full px-6 py-2 hover:bg-primary-dull transition">
             Appointment
           </button>
 
