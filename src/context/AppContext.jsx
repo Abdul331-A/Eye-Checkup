@@ -19,8 +19,6 @@ export const AppContextProvider = ({ children }) => {
         {children}
     </AppContext.Provider>
 
-
-
 }
 
 export const useAppContext=()=>{

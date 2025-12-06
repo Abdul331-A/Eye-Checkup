@@ -115,7 +115,7 @@ export const dummyTestimonialData = [
   {
     image: "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=200",
     name: 'John Doe',
-    heading:"great work",
+    heading: "great work",
     title: 'Marketing Director, TechCorp',
     content: 'ContentAI has revolutionized our content workflow. The quality of the articles is outstanding, and it saves us hours of work every week.',
     rating: 4,
@@ -123,7 +123,7 @@ export const dummyTestimonialData = [
   {
     image: "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?q=80&w=200",
     name: 'Jane Smith',
-    heading:"great work",
+    heading: "great work",
     title: 'Content Creator, TechCorp',
     content: 'ContentAI has made our content creation process effortless. The AI tools have helped us produce high-quality content faster than ever before.',
     rating: 5,
@@ -131,7 +131,7 @@ export const dummyTestimonialData = [
   {
     image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=200&h=200&auto=format&fit=crop",
     name: 'David Lee',
-    heading:"great work",
+    heading: "great work",
     title: 'Content Writer, TechCorp',
     content: 'ContentAI has transformed our content creation process. The AI tools have helped us produce high-quality content faster than ever before.',
     rating: 4,
@@ -141,149 +141,195 @@ export const dummyTestimonialData = [
 
 export const specialDoctors = [
   {
-    images:grandDr,
-    name:"dr.laurence oilivier",
-    department:"lens replacement"
+    images: grandDr,
+    name: "dr.laurence oilivier",
+    department: "lens replacement"
   },
   {
-    images:ladyDr,
-    name:"dr.laurence oilivier",
-    department:"lens replacement"
+    images: ladyDr,
+    name: "dr.laurence oilivier",
+    department: "lens replacement"
   },
   {
-    images:firstdr,
-    name:"dr.laurence oilivier",
-    department:"lens replacement"
+    images: firstdr,
+    name: "dr.laurence oilivier",
+    department: "lens replacement"
   },
   {
-    images:secondDr,
-    name:"dr.laurence oilivier",
-    department:"lens replacement"
+    images: secondDr,
+    name: "dr.laurence oilivier",
+    department: "lens replacement"
   },
   {
-    images:thirdDr,
-    name:"dr.laurence oilivier",
-    department:"lens replacement"
+    images: thirdDr,
+    name: "dr.laurence oilivier",
+    department: "lens replacement"
   },
   {
-    images:fourthDr,
-    name:"dr.laurence oilivier",
-    department:"lens replacement"
+    images: fourthDr,
+    name: "dr.laurence oilivier",
+    department: "lens replacement"
   },
 ]
 
 export const specsData = [
-  { 
-    id: 1, 
-    name: "Eco tyne cry", 
-    actualPrice: 2499, 
-    discription:"budapest white 51 18145",
-    offerPrice: 1999, 
+  {
+    id: 1,
+    name: "Eco tyne cry",
+    actualPrice: 2499,
+    discription: "budapest white 51 18145",
+    offerPrice: 1999,
     saleTag: "SALE",
-    image: printSpecs 
+    image: printSpecs
   },
-  { 
-    id: 2, 
-    name: "Eco tyne cry", 
-    actualPrice: 3499, 
-    discription:"budapest white 51 18145",
-    offerPrice: 2999, 
+  {
+    id: 2,
+    name: "Eco tyne cry",
+    actualPrice: 3499,
+    discription: "budapest white 51 18145",
+    offerPrice: 2999,
     saleTag: "HOT",
     image: printSpecs
   },
-  { 
-    id: 3, 
-    name: "Eco tyne cry", 
-    actualPrice: 1999, 
-    offerPrice: 1499, 
-    discription:"budapest white 51 18145",
+  {
+    id: 3,
+    name: "Eco tyne cry",
+    actualPrice: 1999,
+    offerPrice: 1499,
+    discription: "budapest white 51 18145",
     saleTag: "",
-    image: printSpecs 
+    image: printSpecs
   },
-  { 
-    id: 4, 
-    name: "Eco tyne cry", 
-    actualPrice: 2999, 
-    discription:"budapest white 51 18145",
+  {
+    id: 4,
+    name: "Eco tyne cry",
+    actualPrice: 2999,
+    discription: "budapest white 51 18145",
     offerPrice: 2499,
     saleTag: "SALE",
-    image: printSpecs 
+    image: printSpecs
   },
-  { 
-    id: 5, 
-    name: "Eco tyne cry", 
-    actualPrice: 2299, 
-    discription:"budapest white 51 18145",
+  {
+    id: 5,
+    name: "Eco tyne cry",
+    actualPrice: 2299,
+    discription: "budapest white 51 18145",
     offerPrice: 1899,
     saleTag: "NEW",
-    image: printSpecs 
+    image: printSpecs
   },
-  { 
-    id: 6, 
-    name: "Eco tyne cry", 
-    actualPrice: 1299, 
+  {
+    id: 6,
+    name: "Eco tyne cry",
+    actualPrice: 1299,
     offerPrice: 999,
-    discription:"budapest white 51 18145",
+    discription: "budapest white 51 18145",
     saleTag: "",
-    image: printSpecs 
+    image: printSpecs
   },
-  { 
-    id: 7, 
-    name: "Eco tyne cry", 
-    actualPrice: 5499, 
+  {
+    id: 7,
+    name: "Eco tyne cry",
+    actualPrice: 5499,
     offerPrice: 4999,
     saleTag: "HOT",
-    discription:"budapest white 51 18145",
-    image: printSpecs 
-    
+    discription: "budapest white 51 18145",
+    image: printSpecs
+
   },
-  { 
-    id: 8, 
-    name: "Eco tyne cry", 
-    actualPrice: 4299, 
+  {
+    id: 8,
+    name: "Eco tyne cry",
+    actualPrice: 4299,
     offerPrice: 3799,
-    discription:"budapest white 51 18145",
+    discription: "budapest white 51 18145",
     saleTag: "SALE",
     image: printSpecs
   },
-  { 
-    id: 9, 
-    name: "Eco tyne cry", 
-    actualPrice: 4299, 
+  {
+    id: 9,
+    name: "Eco tyne cry",
+    actualPrice: 4299,
     offerPrice: 3799,
-    discription:"budapest white 51 18145",
+    discription: "budapest white 51 18145",
     saleTag: "SALE",
-    image: printSpecs 
+    image: printSpecs
   },
 ];
 
-    export const offices = [
-    {
-      city: "London Shop",
-      address1: "PO Box 16122 Collins Street West",
-      address2: "Victoria 8007 Australia",
-      phone: "+1 987 654 3210",
-      email: "info@domain.com",
-    },
-    {
-      city: "New York Shop",
-      address1: "PO Box 16122 Collins Street West",
-      address2: "Victoria 8007 Australia",
-      phone: "+1 987 654 3210",
-      email: "info@domain.com",
-    },
-    {
-      city: "Istanbul Shop",
-      address1: "PO Box 16122 Collins Street West",
-      address2: "Victoria 8007 Australia",
-      phone: "+1 987 654 3210",
-      email: "info@domain.com",
-    },
-    {
-      city: "Paris Shop",
-      address1: "PO Box 16122 Collins Street West",
-      address2: "Victoria 8007 Australia",
-      phone: "+1 987 654 3210",
-      email: "info@domain.com",
-    },
-  ];
+export const offices = [
+  {
+    city: "London Shop",
+    address1: "PO Box 16122 Collins Street West",
+    address2: "Victoria 8007 Australia",
+    phone: "+1 987 654 3210",
+    email: "info@domain.com",
+  },
+  {
+    city: "New York Shop",
+    address1: "PO Box 16122 Collins Street West",
+    address2: "Victoria 8007 Australia",
+    phone: "+1 987 654 3210",
+    email: "info@domain.com",
+  },
+  {
+    city: "Istanbul Shop",
+    address1: "PO Box 16122 Collins Street West",
+    address2: "Victoria 8007 Australia",
+    phone: "+1 987 654 3210",
+    email: "info@domain.com",
+  },
+  {
+    city: "Paris Shop",
+    address1: "PO Box 16122 Collins Street West",
+    address2: "Victoria 8007 Australia",
+    phone: "+1 987 654 3210",
+    email: "info@domain.com",
+  },
+];
+
+export const items = [
+  {
+    id: 1,
+    title: "Eco",
+    subtitle: "Budapest Black 51 18 145 (E)",
+    priceOld: "$120",
+    priceNew: "$100",
+    quantity: 1,
+    image: "https://via.placeholder.com/70"
+  },
+  {
+    id: 2,
+    title: "Eco Viena",
+    subtitle: "Budapest Blue 51 18 145",
+    priceOld: "$120",
+    priceNew: "$100",
+    quantity: 1,
+    image: "https://via.placeholder.com/70"
+  },
+  {
+    id: 3,
+    title: "Eco Viena",
+    subtitle: "Budapest Blue 51 18 145",
+    priceOld: "$120",
+    priceNew: "$100",
+    quantity: 2,
+    image: "https://via.placeholder.com/70"
+  },
+  {
+    id: 4,
+    title: "Eco Viena",
+    subtitle: "Budapest Blue 51 18 145",
+    priceOld: "$120",
+    priceNew: "$100",
+    quantity: 3,
+    image: "https://via.placeholder.com/70"
+  }
+];
+
+export const initialProducts = [
+    { id: 1, name: "Eco", variant: "Budapest Black 51 18 145 (E)", quantity: 1, originalPrice: 120, price: 100 },
+    { id: 2, name: "Eco Viena", variant: "Budapest Blue 51 18 145", quantity: 1, originalPrice: 120, price: 100 },
+    { id: 3, name: "Eco Viena", variant: "Budapest Blue 51 18 145", quantity: 2, originalPrice: 120, price: 100 },
+    { id: 4, name: "Eco Viena", variant: "Budapest Blue 51 18 145", quantity: 3, originalPrice: 120, price: 100 },
+];

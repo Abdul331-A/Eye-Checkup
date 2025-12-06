@@ -3,9 +3,6 @@ import React from 'react'
 
 
 
-
-
-
 const onChange = (date, dateString) => {
     console.log(date, dateString);
 };
@@ -57,14 +54,14 @@ const AppoinmentBooking = () => {
 
                         <div>
                             <label className="block text-sm text-primary mb-1">appoinment date</label>
-                                <DatePicker  className="custom-date w-full"
-                                    format={{
-                                        format: 'YYYY-MM-DD',
-                                        type: 'mask',
-                                        
-                                    }}
-                                    onChange={onChange}
-                                />
+                            <DatePicker className="custom-date w-full"
+                                format={{
+                                    format: 'YYYY-MM-DD',
+                                    type: 'mask',
+
+                                }}
+                                onChange={onChange}
+                            />
                         </div>
                     </div>
                     <button
